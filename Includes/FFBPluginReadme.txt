@@ -195,6 +195,7 @@ TEKNOPARROT:
 -Batman (2013)
 -Battle Gear 4 Tuned (Japan version v2.07)
 -ChaseHQ 2
+-Cruisin Blast
 -Daytona Championship USA
 -Daytona Championship USA New Season Edition
 -Dead Heat

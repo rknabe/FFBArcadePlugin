@@ -140,9 +140,9 @@ float Helpers::ReadFloat32(INT_PTR offset, bool isRelativeOffset)
 		//log("going to try to RPM");
 		LPVOID trueOffset = (isRelativeOffset ? GetTranslatedOffset(offset) : (LPVOID)offset);
 		ReadProcessMemory(GetCurrentProcess(), trueOffset, &val, sizeof(float), &read);
-		//char text[256];
-		//sprintf_s(text, "%16X / %16X\n", offset, trueOffset);
-		//log(text);
+		char text[256];
+		sprintf_s(text, "%16X / %16X\n", offset, trueOffset);
+		log(text);
 		//log("RPM");
 		return val;
 		

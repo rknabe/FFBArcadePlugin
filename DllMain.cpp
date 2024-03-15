@@ -37,6 +37,7 @@ along with FFB Arcade Plugin.If not, see < https://www.gnu.org/licenses/>.
 #include "Game Files/BG4JP.h"
 #include "Game Files/ChaseHQ2.h"
 #include "Game Files/CrazyTaxi.h"
+#include "Game Files/CruisinBlast.h"
 #include "Game Files/D1GP.h"
 #include "Game Files/Daytona3.h"
 #include "Game Files/Daytona3NSE.h"
@@ -1066,6 +1067,7 @@ const int GRID_Custom = 71;
 const int MARIO_KART_GPDX_118_CUSTOM = 72;
 const int SEGA_SHOWDOWN = 73;
 const int SPRING_EFFECT = 74;
+const int CRUISIN_BLAST = 75;
 
 HINSTANCE Get_hInstance()
 {
@@ -2532,6 +2534,9 @@ DWORD WINAPI FFBLoop(LPVOID lpParam)
 		break;
 	case Bat_man:
 		game = new Batman;
+		break;
+	case CRUISIN_BLAST:
+		game = new CruisinBlast;
 		break;
 	case R_Tuned:
 		game = new RTuned;
