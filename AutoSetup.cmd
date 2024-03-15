@@ -69,6 +69,9 @@ cd..
 cd Ring Riders
 rename dinput8.dll opengl32.dll
 cd..
+cd CruisinBlast
+rename dinput8.dll opengl32.dll
+cd..
 cd D1GP Arcade
 rename dinput8.dll winmm.dll
 cd..
